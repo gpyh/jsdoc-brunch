@@ -3,16 +3,18 @@
   "version": "0.0.1",
   "description": "Adds JSDoc support to brunch.",
   "main": "./lib/index",
-  "author": "Dag Jomar Mersland",
+  "author": {
+    "name": "Dag Jomar Mersland"
+  },
   "license": "BSD",
   "dependencies": {
     "jsdoc": "~3.3.0-alpha3"
   },
-  "scripts": {
-    "postinstall": "node setup.js postinstall",
-    "test": "node setup.js test"
-  },
-  "engines": {
-    "node": "~0.6.10"
+  "readme": "## jsdoc-brunch\nAdds JSDoc support to [brunch](http://brunch.io).\n\n## Usage\nAdd `\"jsdoc-brunch\": \"x.y.z\"` to `package.json` of your brunch app.\n\nPick a plugin version that corresponds to your minor (y) brunch version.\n\nIf you want to use git version of plugin, add\n`\"jsdoc-brunch\": \"git+ssh://git@github.com:MazeMap/jsdoc-brunch.git\"`.\n",
+  "readmeFilename": "README.md",
+  "_id": "jsdoc-brunch@0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MazeMap/jsdoc-brunch.git"
   }
 }
