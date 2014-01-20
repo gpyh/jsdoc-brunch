@@ -17,7 +17,7 @@ var execute = function(pathParts, params, callback) {
 if (mode === 'postinstall') {
   //compile the coffeescript source in src/
   //and put the output into lib/
-  execute(['node_modules', 'coffee-script', 'bin', 'coffee'], '-o lib/ src/');
+  //execute(['node_modules', 'coffee-script', 'bin', 'coffee'], '-o lib/ src/');
 } else if (mode === 'test') {
   execute(['node_modules', 'mocha', 'bin', 'mocha'],
     '--require test/common.js --colors');
