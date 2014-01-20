@@ -12,8 +12,9 @@ Inside the Brunch config file `config.js` add these parameters under the `plugin
 ```
 plugins: {
     jsdoc: {
-        input: "app/anySubDir",
-        destination: 'public/dir/to/docs'
+        input: "app/anySubDir", /* optional */
+        destination: 'public/dir/to/docs', /* optional */
+        recursive: true /* optional */
     }
 ``
 
