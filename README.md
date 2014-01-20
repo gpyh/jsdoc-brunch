@@ -1,5 +1,10 @@
 # jsdoc-brunch
-Adds JSDoc support to [brunch](http://brunch.io).
+Adds [JSDoc](https://npmjs.org/package/jsdoc) support to [brunch](http://brunch.io).
+
+Read more about JSDoc at the [JSDoc homepage](http://usejsdoc.org)
+
+##Why this package
+The [JSDoc](https://npmjs.org/package/jsdoc) package is already simple to use, and you can easily implement it in your own automated build config script files. However, I wanted an even more simple and automated workflow for it, so I made a brunch-plugin to do the work for me. And now, you can too ^_^
 
 ## Installing npm package
 Add `"jsdoc-brunch"` to `package.json` of your brunch app.
@@ -29,4 +34,9 @@ Now, when Brunch compiles your code, it also tells JSDoc to search your specifie
 
 ##Todo
 This plugin is really just a very simple wrapper for the already simple JSDocs npm package. 
-There should be done some work to implement more options that are supported by JSDocs, and also there should be a way to enable the auto-refresh on these pages as well.
+
+Here are some stuff that you can do, if you know how :)
+
+* Add support for configuring the jsdocs compiler (http://usejsdoc.org/about-configuring-jsdoc.html)
+* Find a way to enable the auto-reload on these pages when using the watch feature of brunch.
+* Make it more stable. I have not accounted for all things that might go wrong, such as bad config.
