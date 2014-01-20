@@ -6,10 +6,12 @@ Read more about JSDoc at the [JSDoc homepage](http://usejsdoc.org)
 ##Why this package
 The [JSDoc](https://npmjs.org/package/jsdoc) package is already simple to use, and you can easily implement it in your own automated build config script files. However, I wanted an even more simple and automated workflow for it, so I made a brunch-plugin to do the work for me. And now, you can too ^_^
 
-## Installing npm package
-Add `"jsdoc-brunch"` to `package.json` of your brunch app.
+## Installing
+run `npm install --save jsdoc-brunch`
 
 ##Brunch config
+(All config optional, so you can skip this if you want to)
+
 Inside the Brunch config file `config.js` add these parameters under the `plugins` object as shown here:
 ```
 plugins: {
