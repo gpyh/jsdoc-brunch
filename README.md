@@ -44,5 +44,4 @@ This plugin is really just a very simple wrapper for the already simple JSDocs n
 Here are some stuff that you can do, if you know how :)
 
 * Add support for configuring the jsdocs compiler (http://usejsdoc.org/about-configuring-jsdoc.html)
-* Find a way to enable the auto-reload on these pages when using the watch feature of brunch.
 * Make it more stable. I have not accounted for all things that might go wrong, such as bad config.
