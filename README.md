@@ -34,6 +34,10 @@ The `enabled` allows you to disable jsdoc during testing, by setting this to fal
 ##Then what?
 Now, when Brunch compiles your code, it also tells JSDoc to search your specified `input` folder, and parse the js-files. It outputs it's files to the specified `destination` folder.
 
+By defeault, the output is in the public folder, so if you are running the Brunch server, you can view the docs locally.
+As of 0.1.0, It even works with the built-in auto reload feature in Brunch ^^
+
+
 ##Todo
 This plugin is really just a very simple wrapper for the already simple JSDocs npm package. 
 
